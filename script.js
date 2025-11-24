@@ -13,7 +13,9 @@ navLinks.forEach(link => {
 // Contact form (demo only)
 const contactForm = document.querySelector(".contact-form");
 if (contactForm) {
-  contactForm.addEventListener("submit", () => {
-    alert("Your message has been submitted! (Demo only)");
+  contactForm.addEventListener("submit", (event) => {
+    event.preventDefault();
+    alert("Your message has been submitted!");
   });
 }
+
