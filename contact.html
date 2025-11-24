@@ -28,14 +28,12 @@
     </div>
 
     <h2>Send a Message</h2>
-      <form action="https://formsubmit.co/rahulramesh826@gmail.com" method="POST" class="contact-form">
+     <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
 
-  <!-- FormSubmit Required Hidden Inputs -->
-  <input type="hidden" name="_captcha" value="false">
-  <input type="hidden" name="_template" value="table">
+  <input type="hidden" name="access_key" value="f19a290a-36cd-4da4-b943-818b10cdf2ac">
 
-  <input type="text" name="name" placeholder="Your Name" required />
-  <input type="email" name="email" placeholder="Your Email" required />
+  <input type="text" name="name" placeholder="Your Name" required>
+  <input type="email" name="email" placeholder="Your Email" required>
   <textarea name="message" placeholder="Your Message" required></textarea>
 
   <button type="submit" class="btn">Send Message</button>
@@ -46,5 +44,6 @@
   <script src="script.js"></script>
 </body>
 </html>
+
 
 
