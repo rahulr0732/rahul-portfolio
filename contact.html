@@ -28,7 +28,9 @@
     </div>
 
     <h2>Send a Message</h2>
-    <form class="contact-form" onsubmit="return false;">
+      <form action="https://formsubmit.co/rahulramesh826@gmail.com" method="POST" class="contact-form">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_template" value="table">
       <input type="text" placeholder="Your Name" required />
       <input type="email" placeholder="Your Email" required />
       <textarea placeholder="Your Message" required></textarea>
@@ -39,3 +41,4 @@
   <script src="script.js"></script>
 </body>
 </html>
+
